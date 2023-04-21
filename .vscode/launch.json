@@ -3,11 +3,13 @@
   "configurations": [
     {
       "name": "C/C++ Runner: Debug Session",
-      "type": "lldb",
+      "type": "cppvsdbg",
       "request": "launch",
       "args": [],
-      "cwd": "/Users/huy8bit/Desktop/DRIVE/DEV/application encryption/PROJECT/CCMP",
-      "program": "/Users/huy8bit/Desktop/DRIVE/DEV/application encryption/PROJECT/CCMP/build/Debug/outDebug"
+      "stopAtEntry": false,
+      "console": "externalTerminal",
+      "cwd": "d:/DEV/application encryption/Projects/CCMP",
+      "program": "d:/DEV/application encryption/Projects/CCMP/build/Debug/outDebug"
     }
   ]
 }
